@@ -6,7 +6,7 @@ jobs:
     name: A job to say hello
     steps:
       - name: Hello world action step
-        id: hello
+        id: hellox
         uses: bigdaz/hello-world-javascript-action@v1.1
         with:
           who-to-greet: 'BigDaz again'
